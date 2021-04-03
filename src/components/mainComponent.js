@@ -39,13 +39,13 @@ class Main extends Component {
     users.users.map((user) => {
       usersArr[user.area_id]++;
       totalage[user.area_id] += user.age;
-      if (user.is_pro_user == true) {
+      if (user.is_pro_user === true) {
         proUser[user.area_id]++;
       }
-      if (user.gender == "M") {
+      if (user.gender === "M") {
         male[user.area_id]++;
       }
-      if (user.gender == "F") {
+      if (user.gender === "F") {
         female[user.area_id]++;
       }
     });
