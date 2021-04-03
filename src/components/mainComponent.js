@@ -109,7 +109,6 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <div className=""> Locale-ai Task</div>
         <div>
         <MapContainer className="map-container" center={[13.040467663222651, 77.52199183093504]} zoom={12}>
         <TileLayer
